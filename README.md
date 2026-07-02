@@ -4,22 +4,22 @@
 <p align="center">
 
 </p>
-A production ready Python trading bot for **Binance Futures Testnet (USDT-M)** that enables users to place **Market** and **Limit** orders through a modern Command Line Interface (CLI). The project follows clean architecture principles, includes structured logging, comprehensive input validation, robust error handling, and an optional modern web dashboard.
+A production ready Python trading bot for **Binance Futures Testnet (USDT-M)** that enables users to place Market and Limit orders through a modern Command Line Interface (CLI). The project follows clean architecture principles, includes structured logging, comprehensive input validation, robust error handling, and an optional modern web dashboard.
 
 ---
 
 # 📌 Project Overview
 
-This project was developed as part of a **Python Developer Application Task**. The application demonstrates practical experience with REST APIs, modular software architecture, CLI development, logging, exception handling, and Python best practices.
+This project was developed as part of a Python Developer Application Task. The application demonstrates practical experience with REST APIs, modular software architecture, CLI development, logging, exception handling, and Python best practices.
 
-The bot connects to the **Binance Futures Testnet** and allows users to safely simulate cryptocurrency futures trading without using real funds.
+The bot connects to the Binance Futures Testnet and allows users to safely simulate cryptocurrency futures trading without using real funds.
 
 ---
 
 # ✨ Features
 
-* ✅ Place **Market Orders**
-* ✅ Place **Limit Orders**
+* ✅ Place Market Orders
+* ✅ Place Limit Orders
 * ✅ Support for **BUY** and **SELL** positions
 * ✅ Binance USDT-M Futures Testnet integration
 * ✅ Secure API credential management using `.env`
