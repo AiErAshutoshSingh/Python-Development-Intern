@@ -1,5 +1,5 @@
 # 🚀 Binance Futures Trading Bot (USDT-M Testnet)
-<p align="center"> <img src="images/trading.png" alt="Binance Trading Bot Banner" width="100%"> </p>
+<p align="center"> <img src="trading.png" alt="Binance Trading Bot Banner" width="100%"> </p>
 
 <p align="center">
 
