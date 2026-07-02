@@ -1,0 +1,9 @@
+python-binance
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+typer
+rich
+pytest
+python-dotenv

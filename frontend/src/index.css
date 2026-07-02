@@ -1,0 +1,32 @@
+/* Tailwind v4 — single import replaces all @tailwind directives */
+@import "tailwindcss";
+
+/* Custom design tokens for the cyberpunk theme */
+@theme {
+  --color-background: #0a0a0f;
+  --color-primary: #00f0ff;
+  --color-secondary: #0055ff;
+  --color-accent: #ff003c;
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --font-family-sans: 'Inter', sans-serif;
+  --font-family-mono: 'Fira Code', monospace;
+}
+
+body {
+  background-color: var(--color-background);
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: var(--font-family-sans);
+}
+
+.glass-panel {
+  background: var(--color-glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+}
+
